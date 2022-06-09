@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.bananer{
+  background-image: url(../images/1494222372_192442835159100624e7170.jpg);
+  background-position: center center;
+
+  
+  width: 1600px;
+  margin: 0 auto;
+  height: 300px;
+  overflow: hidden;
+}
+.bananer-font{
+width: 1200px;
+height: 250px;
+margin-top: 25px;
+margin-left: 100px;
+
+}
+
+.bananer-font .biao{
+  display: block;
+  font-size: 40px;
+  color: #fff;
+}
+
+.border{
+ 
+  width: 42px;
+  margin: 30px 0;
+  height: 2px;
+  background-color: #fff;
+}
+
+.span1{
+  display: block;
+  max-width: 54%;
+  font-size: 16px;
+  text-align: left;
+  line-height: 28px;
+  color: #fff;
+}
+.relation {
+  margin-top: 40px;
+  width: 100%;
+  height: 600px;
+}
+.relation .relation-v {
+  width: 1200px;
+  margin: 0 auto;
+}
+.relation .relation-v .relation-top {
+  width: 100%;
+  height: 330px;
+  position: relative;
+}
+.relation .relation-v .relation-top .headquarters {
+  position: absolute;
+  width: 220px;
+  height: 333px;
+  right: 0;
+  top: 0;
+  background-color: #3e7ab0;
+}
+.relation .relation-v .relation-top .headquarters .content {
+  padding: 50px 10px 0 20px;
+}
+.relation .relation-v .relation-top .headquarters .content .zone {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+.relation .relation-v .relation-top .headquarters .content .wire {
+  height: 1px;
+  margin: 22px 0;
+  background-color: #fff;
+  width: 30px;
+}
+.relation .relation-v .relation-top .headquarters .content .address {
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+  display: block;
+}
+.relation .relation-v .relation-top .headquarters .content .phone {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 14px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.relation .relation-v .relation-top .headquarters .content .phone-number {
+  font-size: 16px;
+  vertical-align: text-top;
+  font-weight: 600;
+  line-height: 28px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.relation .relation-v .relation-bottom .title {
+  position: relative;
+  width: 1100px;
+  height: 1px;
+  margin: 45px auto;
+  background-color: #cccccc;
+}
+.relation .relation-v .relation-bottom .title .text {
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  height: auto;
+  width: 120px;
+  padding: 8px 14px;
+  margin-left: -72px;
+  font-size: 28px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+  background-color: #fff;
+}
+.relation .relation-v .relation-bottom .list {
+  width: 100%;
+}
+.relation .relation-v .relation-bottom .list .item {
+  width: 380px;
+  float: left;
+}
+.relation .relation-v .relation-bottom .list .item .zone {
+  font-size: 22px;
+  color: #3e7ab0;
+  font-weight: 600;
+  line-height: 40px;
+}
+.relation .relation-v .relation-bottom .list .item .address {
+  font-size: 16px;
+  color: #333;
+  line-height: 38px;
+  margin: 0;
+  border: none;
+}
+.relation .relation-v .relation-bottom .list .item .phone {
+  font-size: 16px;
+  color: #333;
+  line-height: 38px;
+  margin: 0;
+  letter-spacing: normal;
+  font-weight: normal;
+}

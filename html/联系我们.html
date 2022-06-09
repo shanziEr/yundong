@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../css/地图.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript"
+        src="https://api.map.baidu.com/api?v=2.0&ak=2COzFaICuIyVj7V3VetKfmdRVnX8BhVr"></script>
+    <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script src="../js/map.js"></script>
+    <link rel="stylesheet" href="../css/联系我们.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/top.css">
+</head>
+
+<body>
+     <!-- 顶部 -->
+     <div class="header">
+        <div class="logo">
+            <a href="">
+                <img src="../images/logo.jpg" alt="">
+            </a>
+        </div>
+        <div class="top-menu">
+            <ul>
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="核心产业.html">核心产品</a></li>
+                <li><a href="大数据基地.html">大数据基地</a></li>
+                <li><a href="解决方案.html">解决方案</a></li>
+                <li><a href="技术支持.html">技术支持</a></li>
+                <li><a href="联系我们.html">联系我们</a></li>
+                <li><a href="诚聘英才.html">诚聘英才</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!-- 背景图 -->
+    <div class="bananer">
+        <div class="bananer-font">
+            <span class="biao">联系我们</span>
+
+            <div class="border"></div>
+            <span class="span1">云动科技是一家专注于云计算管理平台、大数据应用、行业解决方案和智慧城市建设服务的高科技公司</span>
+        </div>
+</div>
+    <!-- 主要内容 -->
+    <div class="relation">
+        <!-- 可视区 -->
+        <div class="relation-v">
+            <!-- 上半部分 -->
+            <div class="relation-top">
+                <!-- 地图 -->
+                <div class="w1150">
+                    <div class="video-wrapper">
+                        <div class="location-main">
+                            <div class="location-map">
+                                <div id="container"
+                                    style="width: 100%; height: 100%; overflow: hidden; position: relative; z-index: 0; background-color: rgb(243, 241, 236); color: rgb(0, 0, 0); text-align:left;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 地图上的div -->
+                <div class="headquarters">
+                    <div class="content">
+                        <p class="zone">公司总部(北京)</p>
+                        <p class="wire"></p>
+                        <p class="address">北京市广安门内大街315号信息大厦11层</p>
+                        <p class="phone">电话：</p>
+                        <p class="phone-number">400-618-9100</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 下半部分 -->
+            <div class="relation-bottom">
+                <!-- 标题 -->
+                <div class="title">
+                    <div class="text">国内分部</div>
+                </div>
+                <div class="list">
+                    <div class="item" style="margin-left: 20px;">
+                        <p class="zone">无锡</p>
+                        <p class="address">地址：无锡市新吴区清源路20号立业楼E</p>
+                        <p class="phone">电话：0510-83481839</p>
+                    </div>
+                    <div class="item" style="margin-left: 20px;">
+                        <p class="zone">郑州</p>
+                        <p class="address">地址：河南省郑州市经开区航体南路朝凤路16号南3楼</p>
+                        <p class="phone">电话：400-618-9100</p>
+                    </div>
+                    <div class="item"style="margin-left: 20px;">
+                        <p class="zone">承德</p>
+                        <p class="address">地址：河北省承德市高新区科技大厦主楼</p>
+                        <p class="phone">电话：400-618-9100</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 页脚 -->
+    <div class="footer">
+        <div class="footerer-menu">
+            <dl>
+                <dt>技术支持</dt>
+                <dd>
+                    <i class="icon-footer-menu"></i>
+                    <a href="">服务中心</a></dd>
+                <dd>
+                    <i class="icon-footer-menu"></i>
+                    <a href="">答疑解惑</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>产品技术</dt>
+                <dd>
+                    <i class="icon-footer-menu"></i>
+                    <a href="">核心产品</a>
+                </dd>
+                <dd>
+                    <i class="icon-footer-menu"></i>
+                    <a href="">大数据中心</a>
+                </dd>
+                <dd>
+                    <i class="icon-footer-menu"></i>
+                    <a href="">解决方案</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>联系我们</dt>
+                <dd>
+                    <i class="icon-footer-menu"></i>
+                    <a href="">运营总部</a></dd>
+                <dd>
+                    <i class="icon-footer-menu"></i>
+                    <a href="">国内分部</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>诚聘英才</dt>
+                <dd>
+                    <i class="icon-footer-menu"></i>
+                    <a href="">高级人才</a></dd>
+                <dd>
+                    <i class="icon-footer-menu"></i>
+                    <a href="">储备人才</a>
+                </dd>
+            </dl>
+            <dl class="footer-menu-last">
+                <dt>关于我们</dt>
+                <dd>
+                    <i class="icon-footer-menu"></i>
+                    <a href="">公司简介</a></dd>
+                    <dd>
+                        <i class="icon-footer-menu"></i>
+                        <a href="">团队经营</a>
+                    </dd>
+                    <dd>
+                        <i class="icon-footer-menu"></i>
+                        <a href="">经营理念</a>
+                    </dd>
+            </dl>
+        </div>
+        <div class="site">总部地址：无锡清源路传感网大学科技园立业楼E区. 北京公司：北京市广安门内大街信息大厦. 郑州公司：河南省郑州市经开区航体南路朝凤路16号南3楼</div>
+        <div class="company">
+            &copy; 2017 无锡云动科技发展有限公司 版权所有。 <a href="">苏ICP备15015653号</a>
+        </div>
+    </div>
+    
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+.footer {
+  border-top: 3px solid #e5e5e5;
+  background-color: #efefef;
+}
+.footer .footerer-menu {
+  width: 1200px;
+  margin: 0 auto 20px;
+  overflow: hidden;
+}
+.footer .footerer-menu dl {
+  width: 110px;
+  float: left;
+  margin: 30px 160px 0 0;
+}
+.footer .footerer-menu dl dt {
+  font-weight: 600;
+  color: #3c79af;
+  font-size: 20px;
+  margin: 15px 0;
+}
+.footer .footerer-menu dl dd i.icon-footer-menu {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: url(../images/footer-menu.jpg) no-repeat center center;
+}
+.footer .footerer-menu dl dd a {
+  display: inline-block;
+  color: #696969;
+  padding: 10px 0 5px;
+}
+.footer .footerer-menu dl dd a:hover {
+  color: #37a9cf;
+}
+.footer .footerer-menu .footer-menu-last {
+  float: right;
+  margin-right: 0;
+}
+.footer .site,
+.footer .company {
+  height: 36px;
+  line-height: 36px;
+  color: #959595;
+  border-top: 2px solid #e5e5e5;
+  border-bottom: 2px solid #e5e5e5;
+  text-align: center;
+  font-size: 12px;
+}
+.footer .company {
+  border: none;
+}
+.footer .company a {
+  color: #2d2d2d;
+  text-decoration: underline;
+}
